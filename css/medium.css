@@ -1,0 +1,24 @@
+@media only screen and (min-width : 768px) {
+
+   body{
+       font-size: 1.2rem;
+   }
+    nav {
+		flex-direction: row;
+
+	}
+	
+	nav a {
+		font-size: 1.2rem;
+	}
+
+    img{
+        width:400px;
+
+    }
+
+    #palette-colors{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,167 @@
+@media only screen and (min-width : 480px) {
+    :root{
+        --pink: #DB4FBA;
+        --light-green: #9CC5A1;
+        --dark-green:#1F2421;
+        --white:#ffffff;
+
+    }
+
+    
+    body{
+        font-family: 'Sourse Sans Pro', sans-serif;
+    }
+    
+
+    header, footer {
+	background-color: var(--light-green);
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+
+nav {
+	background-color: var(--light-green);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color:var(--dark-green);
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 1rem;
+    font-weight: 700;
+}
+
+nav a:hover {
+	background-color: var(--dark-green);
+	color: var(--white);
+}
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+	    max-width: 100%;
+        padding:60px;
+        
+        
+}
+
+
+    h1{
+        display:flex;
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 700;
+        font-size: 2em;
+        padding:15px;   
+
+}
+
+    h2{
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 400;
+        font-size: 2em;
+       
+    }
+
+    h3{
+        font-family: 'Libre Baskerville', serif;
+        background-color: var(--light-green);
+        padding:5px;
+        color: var(--dark-green);
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: -20px;
+        
+
+    }
+
+    h4{
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 700;
+        font-size: 1.3em;
+        text-align: left;
+        padding:10px;
+        margin-bottom: -50px;
+        margin-top: 0;
+        
+    }
+    
+
+
+    img{
+        width: 300px;
+        margin: auto;
+        display: block;
+    }
+   
+    #palette-colors{
+        width: 300px;
+    }
+
+   
+    #pink-color{
+        color:var(--white);
+        background-color: var(--pink);
+        margin-top: -35px;
+        padding:10px;
+    }
+
+    #dark-green-color{
+        color:var(--white);
+        background-color: var(--dark-green);
+        margin-top: -35px;
+        padding:10px;
+    }
+
+    #light-green-color{
+        color:var(--white);
+        background-color: var(--light-green);
+        margin-top: -35px;
+        padding: 10px;
+    }
+
+    .baskerville-text{
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 400;
+
+    }
+
+    h4.source-sans-text{
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .button{
+        background-color:var(--white); 
+        border:none;
+        padding-right:15px;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin:15px;
+        color:var(--dark-green);
+        border-radius:3px ;
+
+
+    }
+
+    .button:hover{
+        color: var(--dark-green);
+        background-color:var(--pink);
+    }
+
+
+
+}
